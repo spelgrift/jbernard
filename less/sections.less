@@ -1,0 +1,241 @@
+// Content Sections
+
+section {
+    padding: 100px 0;
+    h2 {
+    	margin: 0;
+    	font-size: 1.8em;
+    	padding-bottom: 30px;
+    	font-family: @brandFont !important;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: 'Lora', serif;
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+      // color: @brand-primary;
+      outline: none;
+    }
+}
+
+section.primary {
+	background: @section-primary;
+    background-image: url("@{imagePath}/checkered-pattern.png");
+
+	color: white;
+}
+
+section.secondary {
+    background: @section-secondary;
+    background-image: url("@{imagePath}/dark-wood.png");
+    color: white;   
+}
+
+@media(max-width:767px) {
+	section {
+		padding: 75px 0;
+	}
+	section.first {
+		padding-top: 75px;
+	}
+}
+
+.row.spacerTop{
+    margin-top:50px;
+}
+
+// Upcoming Shows
+
+#upcoming {
+    h2 {
+        padding-bottom:0px;
+    }
+
+    h3 {
+        color: black;
+        text-transform: uppercase;
+        font-family: @buttonFont;
+        margin-top:10px;
+        font-weight: 700;
+    }
+    img.upcoming-glyph {
+        width:15px;
+        height:15px;
+        margin: 0 15px;
+    }
+}
+
+.upcoming-li, .past-li {
+    padding:0 0 24px 0;
+
+    .upcoming-date {
+        color: black;
+        font-family: @buttonFont;
+        font-weight: 700;
+        font-size: 1.3em;
+        margin-bottom:7px;
+        text-transform: uppercase;
+    }
+
+    .upcoming-venue {
+        font-family: @brandFont;
+        font-size:1.2em;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .upcoming-town {
+        font-family: @typeFont;
+        font-size: 1.1em;
+    }
+
+    .upcoming-comment {
+        font-family: @typeFont;
+        color:#d2d2d2;
+
+    }
+
+    
+
+    a.upcoming-btn {
+        background-color: #243b57;
+        border-color: #243b57;
+        font-family: @buttonFont;
+        font-size: 1.1em;
+        color: white;
+        padding-right: 15px;
+        padding-left: 15px;
+        &:hover {
+            background-color: #1c2f47;
+            border-color: #1c2f47;
+        }
+    }
+
+
+}
+
+.upcoming-li:after {
+    content: "";
+    height:1px;
+    width:75%;
+    border-bottom:1px solid black;
+    margin:0 auto;
+    padding:12px;
+}
+
+#togglePastShows {
+    color: black;
+    font-family: @buttonFont;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4em;
+    display: inline-block;
+    padding: 25px 0px;
+    margin-bottom:15px;
+
+    &:hover {
+        color:#243b57;
+    }
+}
+
+
+
+
+@media(min-width:768px) {
+
+}
+
+
+// Media Section
+
+.thumbnail {
+    box-shadow: 0px 0px 10px #111;
+    background-color: darken(white, 10%);
+
+    .caption {
+        font-family: 'Lora', serif;
+        color:#333;
+        font-size: 1em;
+    }
+
+    a span.playButton{
+        display: block;
+        background-image: url('@{imagePath}/play_button.png');
+        background-size: cover;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+}
+
+.thumbnail:hover{
+    background-color: white;
+    a span.playButton{
+        background-image: url('@{imagePath}/play_button_hover.png');
+    }
+}
+
+.thumbnail.videoThumb a {  
+    display:block;
+    position:relative;
+}
+
+img.videoThumb{
+    z-index: 1;
+}
+
+// About Section
+
+img.bio-image{
+   max-width: 305px;
+   .pull-left(); 
+   margin: 0 25px 10px 0;
+}
+
+
+p.testimonial{
+    font-style: italic;
+    text-align: center;
+    padding-top:30px;
+    font-weight: bold;
+}
+
+// Contact Section
+
+#contact{
+    ul#contactIcons{
+        list-style: none;
+        text-align: center;
+        padding:0px;
+        li {
+            display:inline-block;
+            padding:10px;
+            a{
+                color:darken(@section-primary, 10%);
+            }
+            a:hover{
+                color:@section-primary;
+            }
+        }
+    }
+
+    h3{
+        font-family: 'Asap', sans-serif;
+        font-style: italic;
+        letter-spacing: 3px;
+        display:block;
+        padding-top:35px;
+        font-size: 2em;
+    }
+}
+
+

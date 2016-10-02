@@ -1,0 +1,84 @@
+// Global Page Styles
+
+body {
+	overflow-x: hidden;
+	background-color:#fff;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Lora', serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	color: #C4C4C4;
+	outline: none;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.img-centered {
+	margin: 0 auto;
+}
+
+.btn-outline {
+	color: white;
+	font-size: 16px;
+	border: solid 2px white;
+	background: transparent;
+	transition: all 0.2s ease-in-out;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		color: @brand-success;
+		background: white;
+		border: solid 2px white;
+	}
+}
+
+footer {
+
+	font-family: 'Lora', serif;
+	font-size: .9em;
+	color: #C4C4C4;
+
+	.footer-above {
+		padding-top: 50px;
+		background-color: @section-primary;
+	}
+	.footer-col {
+		margin-bottom: 50px;
+	}
+	.footer-below {
+		padding: 25px 0;
+		background-color: darken(@section-primary, 5%);
+	}
+
+	a:hover{
+		color:#fff;
+	}
+}
+
+#loader {
+	background-color: #F2EEEB;
+	position:fixed;
+	height:100%;
+	width:100%;
+	z-index: 10000;
+
+	.loaderFrame {
+		display:block;
+		margin:0 auto;
+		margin-top:18%;
+		width:400px;
+		text-align: center;
+	}
+}

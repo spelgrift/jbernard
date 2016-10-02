@@ -1,0 +1,1 @@
+<script src="public/js/public.min.js"></script>

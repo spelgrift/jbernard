@@ -1,0 +1,34 @@
+// Header
+
+header {
+	text-align: center;
+
+	.background-cover;
+	background: url("@{imagePath}/JB_mobileHeader_v3.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	
+	position: relative;
+
+	min-height: 600px;
+
+	.pageQuote {
+		margin-top:60%;
+	}
+}
+
+@media(min-width:768px) { 
+	header {
+
+		background: url("@{imagePath}/JB_header_v6.jpg");
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: cover;
+
+		.pageQuote {
+			margin-top:25%;
+			padding:0;
+		}
+	}
+}
