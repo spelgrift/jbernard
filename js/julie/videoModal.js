@@ -6,12 +6,10 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-var player01;
-var player02;
-var player03;
-var player04;
-var player05;
-var player06;
+var player01,
+player02,
+player03,
+player04;
 
 window.onYouTubeIframeAPIReady = function() {
 	player01 = new YT.Player('player-01', {
@@ -38,22 +36,12 @@ window.onYouTubeIframeAPIReady = function() {
 			'onStateChange' : onPlayerStateChange
 		}
 	});
-	player05 = new YT.Player('player-05', {
-		events: {
-			'onReady' : onPlayerReady,
-			'onStateChange' : onPlayerStateChange
-		}
-	});
-	player06 = new YT.Player('player-06', {
-		events: {
-			'onReady' : onPlayerReady,
-			'onStateChange' : onPlayerStateChange
-		}
-	});
+	console.log('iFrame API ready');
 };
 
 function onPlayerReady(event) {
    event.target.setPlaybackQuality('hd720');
+   console.log('yt players ready');
 }
 function onPlayerStateChange(event) {
    if (event.data == YT.PlayerState.BUFFERING) {
@@ -61,60 +49,77 @@ function onPlayerStateChange(event) {
    }
 }
 
+function isPlayerReady(player) {
+	return player && typeof player.playVideo === 'function';
+}
+
+function playVideo(player) {
+	if(isPlayerReady(player)) {
+		player.playVideo();
+	} 
+}
+
+function pauseVideo(player) {
+	if(isPlayerReady(player)) {
+		player.pauseVideo();
+	}
+}
+
 
 $(function() {
+
 
 	// Pause video when modal closed
 
 	$('#videoModal-01').on('hide.bs.modal', function (){
-		player01.pauseVideo();
+		pauseVideo(player01);
 	});	
 
 	$('#videoModal-02').on('hide.bs.modal', function (){
-		player02.pauseVideo();
+		pauseVideo(player02);
 	});
 
 	$('#videoModal-03').on('hide.bs.modal', function (){
-		player03.pauseVideo();
+		pauseVideo(player03);
 	});
 
 	$('#videoModal-04').on('hide.bs.modal', function (){
-		player04.pauseVideo();
+		pauseVideo(player04);
 	});
 
-	$('#videoModal-05').on('hide.bs.modal', function (){
-		player05.pauseVideo();
-	});
+	// $('#videoModal-05').on('hide.bs.modal', function (){
+	// 	pauseVideo(player05);
+	// });
 
-	$('#videoModal-06').on('hide.bs.modal', function (){
-		player06.pauseVideo();
-	});
+	// $('#videoModal-06').on('hide.bs.modal', function (){
+	// 	pauseVideo(player06);
+	// });
 
 	// Play video when modal shown
 
 	$('#videoModal-01').on('show.bs.modal', function (){
-		player01.playVideo();
+		playVideo(player01);
 	});
 
 	$('#videoModal-02').on('show.bs.modal', function (){
-		player02.playVideo();
+		playVideo(player02);
 	});
 
 	$('#videoModal-03').on('show.bs.modal', function (){
-		player03.playVideo();
+		playVideo(player03);
 	});
 
 	$('#videoModal-04').on('show.bs.modal', function (){
-		player04.playVideo();
+		playVideo(player04);
 	});
 
-	$('#videoModal-05').on('show.bs.modal', function (){
-		player05.playVideo();
-	});
+	// $('#videoModal-05').on('show.bs.modal', function (){
+	// 	playVideo(player05);
+	// });
 
-	$('#videoModal-06').on('show.bs.modal', function (){
-		player06.playVideo();
-	});
+	// $('#videoModal-06').on('show.bs.modal', function (){
+	// 	playVideo(player06);
+	// });
 
 
 

@@ -10,7 +10,7 @@
 
 		<!-- First Row -->
 		<div class="row">
-			<div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+			<div class="col-sm-6 col-xs-10 col-lg-3 col-xs-offset-1 col-sm-offset-0">
 				<div class="thumbnail videoThumb">
 					<a href='#videoModal-01' data-toggle='modal'>
 						<span class='playButton'></span>
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 
-			<div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+			<div class="col-sm-6 col-xs-10 col-lg-3 col-xs-offset-1 col-sm-offset-0">
 				<div class="thumbnail videoThumb">
 					<a href='#videoModal-02' data-toggle='modal'>
 						<span class='playButton'></span>
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			
-			<div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+			<div class="col-sm-6 col-xs-10 col-lg-3 col-xs-offset-1 col-sm-offset-0">
 				<div class="thumbnail videoThumb">
 					<a href='#videoModal-03' data-toggle='modal'>
 						<span class='playButton'></span>
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 
-			<div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+			<div class="col-sm-6 col-xs-10 col-lg-3 col-xs-offset-1 col-sm-offset-0">
 				<div class="thumbnail videoThumb">
 					<a href='#videoModal-04' data-toggle='modal'>
 						<span class='playButton'></span>
@@ -49,27 +49,6 @@
 					<div class='caption text-center'>Monkey and the Engineer</div>
 				</div>
 			</div>
-
-			<div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
-				<div class="thumbnail videoThumb">
-					<a href='#videoModal-05' data-toggle='modal'>
-						<span class='playButton'></span>
-						<img class='videoThumb' src="images/videoThumbs/06_greatDivide.jpg" alt="Across The Great Divide">
-					</a>
-					<div class='caption text-center'>Across The Great Divide</div>
-				</div>
-			</div>
-
-			<div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
-				<div class="thumbnail videoThumb">
-					<a href='#videoModal-06' data-toggle='modal'>
-						<span class='playButton'></span>
-						<img class='videoThumb' src="images/videoThumbs/07_theWayItGoes.jpg" alt="The Way It Goes">
-					</a>
-					<div class='caption text-center'>The Way It Goes</div>
-				</div>
-			</div>
-
 		</div>
 	<!-- /VIDEOS -->
 
@@ -83,7 +62,7 @@
 		<div class="row">
 <?php
 
-for($i = 0; $i <= 23; $i++)
+for($i = 0; $i <= 17; $i++)
 {
 	$slide = $i;
 	$imageNumber = $i + 1;
@@ -96,7 +75,7 @@ for($i = 0; $i <= 23; $i++)
 
 	echo <<< EOD
 
-			<div class="col-xs-4 col-md-2">
+			<div class="col-xs-4 col-sm-2">
 				<div class="thumbnail">
 					<a href='#' class='photoThumb' data-target="#photoCarousel" data-slide-to='$i'>
 						<img src='$path' alt="">

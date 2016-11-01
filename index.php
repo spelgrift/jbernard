@@ -1,6 +1,8 @@
 <?php
 	require "includes/globalHeader.php";
 
+	require 'includes/contact-modal.php';
+
 	require "includes/nav.php";
 	require "includes/header.php";
 	require "includes/upcoming-section.php";

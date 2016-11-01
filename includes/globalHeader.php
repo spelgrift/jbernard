@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Website for Julie Bernard - Singer">
+    <meta name="description" content="Book Julie Bernard with The Rivertown Trio for your venue or event. We do bars, clubs, festivals, restaurants, parties, and house concerts. Americana, roots, blues, and country rock music!">
     <meta name="author" content="Sam Pelgrift">
 
     <link href="public/css/styles.css" rel="stylesheet">
@@ -20,7 +20,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Julie Bernard</title>
+    <title>Julie Bernard | The Rivertown Trio</title>
     
 </head>
 

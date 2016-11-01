@@ -38,23 +38,23 @@ $videos[] = array(
 	'description' => "<p class='videoDescription'><strong>The Back Porch Session - The Rivertown Trio</strong></p><p class='videoDescription'>Julie Bernard: Vocals, Guitar<br>Russ Gauthier: Guitar, Vocals<br>Gary Vogensen: Harmonica, Vocals</p><p class='videoDescription'>Playing with Gary and Russ is pure joy. We play Americana, roots music, blues, country rock and some honky-tonk. They both played for many years with New Riders of the Purple Sage and other well-known bands. When we're in the zone with 3-part harmonies, it's magical and just plain down-home fun!</p>"
 );
 
-// Video 5
-$videos[] = array(
-	'id' => 'videoModal-05',
-	'playerID' => 'player-05',
-	'name' => 'Across The Great Divide (Kate Wolf)',
-	'YTid' => 'MQz745UDKjg',
-	'description' => "<p class='videoDescription'><strong>The Front Porch Session - The 3 of Us</strong></p><p class='videoDescription'>Julie Bernard: Vocals<br>Fred Renfroe: Guitar, Vocals<br>Allen Samelson: Mandolin</p><p class='videoDescription'>Great guys, fabulous musicians, and a great session!</p>"
-);
+// // Video 5
+// $videos[] = array(
+// 	'id' => 'videoModal-05',
+// 	'playerID' => 'player-05',
+// 	'name' => 'Across The Great Divide (Kate Wolf)',
+// 	'YTid' => 'MQz745UDKjg',
+// 	'description' => "<p class='videoDescription'><strong>The Front Porch Session - The 3 of Us</strong></p><p class='videoDescription'>Julie Bernard: Vocals<br>Fred Renfroe: Guitar, Vocals<br>Allen Samelson: Mandolin</p><p class='videoDescription'>Great guys, fabulous musicians, and a great session!</p>"
+// );
 
-// Video 6
-$videos[] = array(
-	'id' => 'videoModal-06',
-	'playerID' => 'player-06',
-	'name' => 'The Way It Goes (Gillian Welch)',
-	'YTid' => '-AO8E23mPa8',
-	'description' => "<p class='videoDescription'><strong>The Front Porch Session - The 3 of Us</strong></p><p class='videoDescription'>Julie Bernard: Vocals<br>Fred Renfroe: Guitar, Vocals<br>Allen Samelson: Mandolin</p><p class='videoDescription'>Great guys, fabulous musicians, and a great session!</p>"
-);
+// // Video 6
+// $videos[] = array(
+// 	'id' => 'videoModal-06',
+// 	'playerID' => 'player-06',
+// 	'name' => 'The Way It Goes (Gillian Welch)',
+// 	'YTid' => '-AO8E23mPa8',
+// 	'description' => "<p class='videoDescription'><strong>The Front Porch Session - The 3 of Us</strong></p><p class='videoDescription'>Julie Bernard: Vocals<br>Fred Renfroe: Guitar, Vocals<br>Allen Samelson: Mandolin</p><p class='videoDescription'>Great guys, fabulous musicians, and a great session!</p>"
+// );
 
 // UPDATE JS WHEN ADDING VIDEOS!
 

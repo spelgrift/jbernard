@@ -114,56 +114,49 @@ $pastEvents[] = array(
 	'url' => 'http://www.bigeasypetaluma.com/calendar.html'
 );
 
-$events[] = array(
-	'date' => 'August 2, 6:30 PM',
+$pastEvents[] = array(
+	'date' => 'August 2, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Join us in this cozy, intimate wine bar.',
 	'url' => 'http://corkscrewbar.com/csb/calendar/'
 );
 
-$events[] = array(
-	'date' => 'August 3, 7 PM',
+$pastEvents[] = array(
+	'date' => 'August 3, 2016',
 	'venue' => 'The Panama Hotel',
 	'town' => 'San Rafael, CA',
 	'comment' => 'Reservations a must. Love playing at the Panama!',
 	'url' => 'http://www.panamahotel.com/music.html'
 );
 
-$events[] = array(
-	'date' => 'August 12, 6 PM',
+$pastEvents[] = array(
+	'date' => 'August 12, 2016',
 	'venue' => "Tony's Seafood Restaurant",
 	'town' => 'Marshall, CA',
 	'comment' => "Join us again at Tony's with all the local Fridayniters!",
 	'url' => '#'
 );
 
-$events[] = array(
-	'date' => 'August 25, 6:30 PM',
+$pastEvents[] = array(
+	'date' => 'August 25, 2016',
 	'venue' => 'Sausalito Seahorse',
 	'town' => 'Sausalito, CA',
 	'comment' => 'Fun, lively venue with good food!',
 	'url' => 'http://www.sausalitoseahorse.com/calendar.html'
 );
 
-// $events[] = array(
-// 	'date' => 'Sepetember 4, 2:30 PM',
-// 	'venue' => 'Lucca Beer Garden',
-// 	'town' => 'Benicia, CA',
-// 	'comment' => "Celebrate Labor Day with us at Benicia's newly-opened hot spot!",
-// 	'url' => '#'
-// );
 
-$events[] = array(
-	'date' => 'September 6, 6:30 PM',
+$pastEvents[] = array(
+	'date' => 'September 6, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Come have some fun at our monthly gig at this intimate wine bar.',
 	'url' => 'http://corkscrewbar.com/csb/calendar/'
 );
 
-$events[] = array(
-	'date' => 'September 23, 8 PM',
+$pastEvents[] = array(
+	'date' => 'September 23, 2016',
 	'venue' => 'Rancho Nicasio',
 	'town' => 'Nicasio, CA',
 	'comment' => "If you missed it the first show, don't miss this one! We had a rip-roaring time!",

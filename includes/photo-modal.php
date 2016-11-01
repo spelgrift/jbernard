@@ -2,7 +2,7 @@
 
 $path = "images/photos/";
 $photoURLs = array();
-$photoCount = 24;
+$photoCount = 18;
 
 for($i = 0; $i <= ($photoCount - 1); $i++)
 {

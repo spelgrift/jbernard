@@ -6,29 +6,23 @@
             </div>
         </div>
         <div class="row">
-        <div class="col-sm-4 visible-xs">
+            <div class='col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center'>
+                <button id='contentFormButton' type='button' class='btn btn-cta btn-lg' data-toggle="modal" data-target="#contactModal">Get in touch with Julie!</button>
                 <ul id='contactIcons'>
-                    <li><a href='mailto:info@juliebernardmusic.com'><i class="fa fa-envelope fa-3x"></i></a></li>
-                    <li><a href='#'><i class="fa fa-facebook-square fa-3x"></i></a></li>
-                    <li><a href='https://www.youtube.com/channel/UCYyiTAcv2HpkXPzPFSq-soA/feed'><i class="fa fa-youtube-play fa-3x"></i></a></li>
+                    <li><a href='mailto:info@juliebernardmusic.com'><i class="fa fa-envelope fa-2x"></i></a></li>
+                    <li><a href='https://www.facebook.com/rivertowntrio/'><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href='https://www.youtube.com/channel/UCYyiTAcv2HpkXPzPFSq-soA/feed'><i class="fa fa-youtube-play fa-2x"></i></a></li>
                 </ul>
             </div>
-
-            <div class="col-sm-4">
-                <p><strong>The Rivertown Trio is available for small or large venue bookings.</strong> We do bars, clubs, festivals, restaurants, parties, and house concerts. People love our Americana, roots, blues, and country rock music!</p>
+        </div>
+        <div class='row'>
+            <div class="col-sm-5 col-sm-offset-1">
+                 <p><strong>The Rivertown Trio is available for small or large venue bookings.</strong> We do bars, clubs, festivals, restaurants, parties, and house concerts. People love our Americana, roots, blues, and country rock music! </p>
             </div>
-
-            <div class="col-sm-4 hidden-xs">
-                <ul id='contactIcons'>
-                    <li><a href='mailto:info@juliebernardmusic.com'><i class="fa fa-envelope fa-3x"></i></a></li>
-                    <li><a href='#'><i class="fa fa-facebook-square fa-3x"></i></a></li>
-                    <li><a href='https://www.youtube.com/channel/UCYyiTAcv2HpkXPzPFSq-soA/feed'><i class="fa fa-youtube-play fa-3x"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="col-sm-4">
+            <div class='col-sm-5'>
                 <p><strong>I’m always interested in new opportunities to make music. </strong>Talk to me about your musical needs, and we can make something exciting happen!</p>
-            </div>   
+            </div>
+
         </div>
 
         <div class="row">

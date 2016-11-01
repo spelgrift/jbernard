@@ -11,3 +11,4 @@ require('./julie/page.js');
 require('./julie/photoModal.js');
 require('./julie/scrollNav.js');
 require('./julie/headerHeight.js');
+require('./julie/contactForm.js');

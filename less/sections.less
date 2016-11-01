@@ -207,6 +207,8 @@ p.testimonial{
     text-align: center;
     padding-top:30px;
     font-weight: bold;
+    font-size: 17px;
+    color: @testimonialColor;
 }
 
 // Contact Section
@@ -216,14 +218,16 @@ p.testimonial{
         list-style: none;
         text-align: center;
         padding:0px;
+        margin-bottom: 16px;
         li {
             display:inline-block;
             padding:10px;
             a{
-                color:darken(@section-primary, 10%);
+                color:@section-primary;
+                
             }
             a:hover{
-                color:@section-primary;
+                color:lighten(@section-primary, 10%);
             }
         }
     }
@@ -237,5 +241,48 @@ p.testimonial{
         font-size: 2em;
     }
 }
+
+.btn-cta{
+    color: #fff;
+    font-size: 22px;
+    background-color: @section-primary;
+    background-image: linear-gradient(lighten(@section-primary, 15%), @section-primary);
+    border: none;
+    font-family: @typeFont;
+    padding:16px 40px;
+    position:relative;
+    z-index: 100;
+    margin-bottom: 32px;
+
+    &:before {
+        border-radius: inherit;
+        background-image: linear-gradient(lighten(@section-primary, 25%), @section-primary);
+        content: '';
+        display:block;
+        height:100%;
+        position:absolute;
+        top: 0; left:0;
+        opacity: 0;
+        width:100%;
+        z-index: -100;
+        transition: opacity 0.45s;
+    }
+    &:active, &:focus, &:visited {
+        color:#fff;
+        border: none;
+        outline: none;
+    }
+    &:hover{
+        color:#fff;
+        &:before {
+            opacity: 1;
+        }
+    }
+}
+
+
+
+
+
 
 

@@ -3,11 +3,11 @@
 	<div class='container'>
 		<div class='row'>
 			<div class='col-sm-6 text-center hidden-sm hidden-xs'>
-				<img src='images/headerQuote_v1.png' class='pageQuote img-responsive'>
+				<img src='images/headerQuote_v1.png' class='pageQuote img-responsive' alt='Songs are the imaginings of the soul...'>
 			</div>
 
 			<div class='col-sm-6 text-center visible-sm'>
-				<img src='images/headerQuote_mobile.png' class='pageQuote img-responsive'>
+				<img src='images/headerQuote_mobile.png' class='pageQuote img-responsive' alt='Songs are the imaginings of the soul...'>
 			</div>
 		</div>
 	</div>
