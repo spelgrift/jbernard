@@ -6,14 +6,14 @@
 				<img src='images/headerQuote_v1.png' class='pageQuote img-responsive' alt='Songs are the imaginings of the soul...'>
 			</div>
 
-			<div class='col-sm-6 text-center visible-sm'>
+			<div class='col-sm-6 text-center visible-sm-block'>
 				<img src='images/headerQuote_mobile.png' class='pageQuote img-responsive' alt='Songs are the imaginings of the soul...'>
 			</div>
 		</div>
 	</div>
 
 	<nav class="navbar mainNav navbar-default" role="navigation">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header page-scroll">
 				<a class="navbar-brand" href="#page-top">Julie Bernard</a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#JBnav">
@@ -33,6 +33,9 @@
 					</li>
 					<li class="page-scroll">
 						<a href="#about">About</a>
+					</li>
+					<li class="page-scroll">
+						<a href="#rtt">The Rivertown Trio</a>
 					</li>
 					<li class="page-scroll">
 						<a href="#media">Media</a>

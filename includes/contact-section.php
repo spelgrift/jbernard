@@ -7,7 +7,9 @@
         </div>
         <div class="row">
             <div class='col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center'>
+
                 <button id='contentFormButton' type='button' class='btn btn-cta btn-lg' data-toggle="modal" data-target="#contactModal">Get in touch with Julie!</button>
+
                 <ul id='contactIcons'>
                     <li><a href='mailto:info@juliebernardmusic.com'><i class="fa fa-envelope fa-2x"></i></a></li>
                     <li><a href='https://www.facebook.com/rivertowntrio/'><i class="fa fa-facebook-square fa-2x"></i></a></li>
@@ -16,11 +18,16 @@
             </div>
         </div>
         <div class='row'>
-            <div class="col-sm-5 col-sm-offset-1">
-                 <p><strong>The Rivertown Trio is available for small or large venue bookings.</strong> We do bars, clubs, festivals, restaurants, parties, and house concerts. People love our Americana, roots, blues, and country rock music! </p>
-            </div>
-            <div class='col-sm-5'>
-                <p><strong>I’m always interested in new opportunities to make music. </strong>Talk to me about your musical needs, and we can make something exciting happen!</p>
+            <div class="col-sm-4 col-sm-offset-4">
+                 <p><strong>The Rivertown Trio</strong> is available for:</p> 
+                 <ul>
+                    <li>Bars</li>
+                    <li>Clubs</li>
+                    <li>Festivals</li>
+                    <li>Restaurants</li>
+                    <li>Parties</li>
+                    <li>House Concerts</li>
+                </ul>
             </div>
 
         </div>

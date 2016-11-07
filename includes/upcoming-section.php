@@ -3,7 +3,7 @@ $events = array();
 $pastEvents = array();
 
 $pastEvents[] = array(
-	'date' => 'February 2, 2016',
+	'date' => 'Feb 2, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Join us the first Tuesday of every month for an intimate evening at this charming wine bar!',
@@ -11,7 +11,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'March 20, 2016',
+	'date' => 'Mar 20, 2016',
 	'venue' => 'Private Event',
 	'town' => 'Mill Valley, CA',
 	'comment' => 'The Rivertown Trio',
@@ -19,7 +19,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'March 24, 2016',
+	'date' => 'Mar 24, 2016',
 	'venue' => 'The Panama Hotel',
 	'town' => 'San Rafael, CA',
 	'comment' => 'Reservations a must. So happy to be returning to the Panama…',
@@ -27,7 +27,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'April 5, 2016',
+	'date' => 'Apr 5, 2016',
 	'venue' => 'The Corkscrew Wine Bar ',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Join us the first Tuesday of every month for an intimate evening at this charming wine bar!',
@@ -35,7 +35,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'April 22, 2016',
+	'date' => 'Apr 22, 2016',
 	'venue' => "Tony's Seafood Restaurant",
 	'town' => 'Marshall, CA',
 	'comment' => "We are looking forward to our debut at Tony's. A fun, lively venue overlooking the ocean!",
@@ -43,7 +43,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'April 29, 2016',
+	'date' => 'Apr 29, 2016',
 	'venue' => 'Rancho Nicasio',
 	'town' => 'Nicasio, CA',
 	'comment' => "So excited for our debut at the Rancho! Don't miss it! The Rancho rocks….!!!",
@@ -75,7 +75,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'June 7, 2016',
+	'date' => 'Jun 7, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Join us the first Tuesday of every month for an intimate evening at this charming wine bar!',
@@ -83,7 +83,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'July 19, 2016',
+	'date' => 'Jul 19, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Join us in this cozy, intimate wine bar.',
@@ -91,7 +91,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'July 22, 2016',
+	'date' => 'Jul 22, 2016',
 	'venue' => 'Cinnabar Winery',
 	'town' => 'Saratoga, CA',
 	'comment' => 'The wines are fabulous and we are very pleased to play there on a warm, summer evening!',
@@ -99,7 +99,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'July 24, 2016',
+	'date' => 'Jul 24, 2016',
 	'venue' => '19 Broadway',
 	'town' => 'Fairfax, CA',
 	'comment' => 'We are back at 19 Broadway for an afternoon on the patio!',
@@ -115,7 +115,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'August 2, 2016',
+	'date' => 'Aug 2, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Join us in this cozy, intimate wine bar.',
@@ -123,7 +123,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'August 3, 2016',
+	'date' => 'Aug 3, 2016',
 	'venue' => 'The Panama Hotel',
 	'town' => 'San Rafael, CA',
 	'comment' => 'Reservations a must. Love playing at the Panama!',
@@ -131,7 +131,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'August 12, 2016',
+	'date' => 'Aug 12, 2016',
 	'venue' => "Tony's Seafood Restaurant",
 	'town' => 'Marshall, CA',
 	'comment' => "Join us again at Tony's with all the local Fridayniters!",
@@ -139,7 +139,7 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'August 25, 2016',
+	'date' => 'Aug 25, 2016',
 	'venue' => 'Sausalito Seahorse',
 	'town' => 'Sausalito, CA',
 	'comment' => 'Fun, lively venue with good food!',
@@ -148,7 +148,7 @@ $pastEvents[] = array(
 
 
 $pastEvents[] = array(
-	'date' => 'September 6, 2016',
+	'date' => 'Sep 6, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => 'Come have some fun at our monthly gig at this intimate wine bar.',
@@ -156,39 +156,39 @@ $pastEvents[] = array(
 );
 
 $pastEvents[] = array(
-	'date' => 'September 23, 2016',
+	'date' => 'Sep 23, 2016',
 	'venue' => 'Rancho Nicasio',
 	'town' => 'Nicasio, CA',
 	'comment' => "If you missed it the first show, don't miss this one! We had a rip-roaring time!",
 	'url' => 'http://www.ranchonicasio.com/music.htm'
 );
 
-$events[] = array(
-	'date' => 'October 4, 6:30 PM',
+$pastEvents[] = array(
+	'date' => 'Oct 4, 2016',
 	'venue' => 'The Corkscrew Wine Bar',
 	'town' => 'Petaluma, CA',
 	'comment' => "If you haven't seen us there before, come join us for wine and tunes at this quaint wine bar!",
 	'url' => 'http://corkscrewbar.com/csb/calendar/'
 );
 
-$events[] = array(
-	'date' => 'October 8',
+$pastEvents[] = array(
+	'date' => 'Oct 8, 2016',
 	'venue' => 'Private Event',
 	'town' => 'San Francisco, CA',
 	'comment' => "",
 	'url' => '#'
 );
 
-$events[] = array(
-	'date' => 'October 18, 7 PM',
+$pastEvents[] = array(
+	'date' => 'Oct 18, 2016',
 	'venue' => 'Fenix Supper Club',
 	'town' => 'San Rafael, CA',
 	'comment' => 'We are delighted to be returning to the fabulous Fenix! Reservations are a good idea.',
 	'url' => 'http://www.fenixlive.com/show/the-rivertown-trio/'
 );
 
-$events[] = array(
-	'date' => "October 21, 8 PM 'til we're done",
+$pastEvents[] = array(
+	'date' => "Oct 21, 2016",
 	'venue' => 'Papermill Saloon',
 	'town' => 'Forest Knolls, CA',
 	'comment' => "If it's good enough for Janis Joplin, it's good enough for us! Come on down to the historic Papermill...",
@@ -234,6 +234,14 @@ $events[] = array(
 	'town' => 'Petaluma, CA',
 	'comment' => "Join us for an intimate night of Americana and country rock with the locals!",
 	'url' => 'http://corkscrewbar.com/csb/calendar/'
+);
+
+$events[] = array(
+	'date' => 'December 16, 7 PM',
+	'venue' => 'AQUS Cafe',
+	'town' => 'Petaluma, CA',
+	'comment' => "A wonderful cafe and gathering place near downtown with great food and our first time there!",
+	'url' => 'http://www.aquscafe.com/'
 );
 
 $events[] = array(
@@ -310,15 +318,13 @@ foreach($pastEvents as $event):
 	?>
 
 	<div class='row past-li'>
-		<div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+		<div class="col-sm-8 col-sm-offset-3 col-xs-10 col-xs-offset-1">
 			<div class='row'>
-				<div class='col-xs-12 col-md-3 upcoming-date'>
+				<div class='col-xs-12 col-md-3 upcoming-date text-right'>
 					<? echo $date; ?>
 				</div>
 				<div class='col-xs-12 col-md-9'>
-					<span class='upcoming-venue'><? echo $venue; ?></span>
-					<img src='./images/julieGlyph.svg' class='upcoming-glyph'>
-					<span class='upcoming-town'><? echo $town; ?></span>
+					<p class='upcoming-town'><? echo "<strong>" . $venue . "</strong> &#8212; " . $town; ?></p>
 				</div>
 			</div>
 		</div>
