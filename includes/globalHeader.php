@@ -26,8 +26,8 @@
 
 <body id="page-top" class="index">
 
-<!-- <div id="loader">
+<div id="loader">
     <div class='loaderFrame'>
         <img src='images/loader.gif'>
     </div>
-</div> -->
+</div>

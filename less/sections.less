@@ -51,7 +51,7 @@ section#rtt {
     background-repeat: no-repeat;
     background-origin:content-box;
     background-size: 100%;
-    padding: 50px 0 0 0;
+    padding: 50px 0 0 0; 
 
     .rtt-main {
         background-color: white;
@@ -64,6 +64,8 @@ section#rtt {
 
         .rtt-footer {
             margin-top: 25px;
+            font-weight: 700;
+            font-style: italic;
         }
 
         .rtt-blurb {
@@ -136,7 +138,21 @@ section#rtt {
         height:15px;
         margin: 0 15px;
     }
+
+    .rtt-news {
+        padding-bottom: 50px;
+        h2 {
+            padding-bottom: 10px;
+        }
+
+        p {
+            color:#d2d2d2;
+            margin-bottom: 20px;
+        }
+    }
 }
+
+
 
 
 .upcoming-li, .past-li {
@@ -300,6 +316,20 @@ p.testimonial{
             a:hover{
                 color:lighten(@primary-blue, 10%);
             }
+
+            &:first-child a{
+                color: #b64cca;
+                &:hover {
+                    color:lighten(#b64cca, 10%);
+                }
+            }
+
+            &:last-child a{
+                color:#6b9e59;
+                :hover {
+                    color:lighten(#6b9e59, 10%);
+                }
+            }
         }
     }
 
@@ -307,6 +337,9 @@ p.testimonial{
         li {
             font-family: @typeFont;
             font-size: 16px;
+        }
+        &.venue-types li {
+            margin-left:50px;
         }
     }
 
@@ -322,7 +355,7 @@ p.testimonial{
 
 .btn-cta{
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     background-color: @accent-red;
     background-image: linear-gradient(lighten(@accent-red, 15%), @accent-red);
     border: none;

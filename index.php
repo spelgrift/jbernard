@@ -12,7 +12,7 @@
 	require "includes/contact-section.php";
 	require "includes/footer.php";
 	
-	// require "includes/video-modal.php";
+	require "includes/video-modal.php";
 
 	echo "<div id='photoLoad'></div>";
 	// require "includes/photo-modal.php";

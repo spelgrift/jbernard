@@ -1,7 +1,7 @@
 <?php
 
 // CONFIG
-$SENDTO = 'info@juliebernardmusic.com'; // Change for production
+$SENDTO = 'spts.devemail@gmail.com'; // Change for production
 
 processRequest($SENDTO);
 
@@ -30,7 +30,7 @@ function processRequest($SENDTO) {
 	$messagebody = $body;
 	$headers = 
 		'Return-Path: ' . $emailfrom . "\r\n" . 
-		'From: ' . $fromname . ' <' . $emailfrom . '>' . "\r\n" . 
+		'From: <' . $emailfrom . '>' . "\r\n" . 
 		'X-Priority: 3' . "\r\n" . 
 		'X-Mailer: PHP ' . phpversion() .  "\r\n" . 
 		'Reply-To: ' . $fromname . ' <' . $emailfrom . '>' . "\r\n" .

@@ -19,8 +19,8 @@
         </div>
         <div class='row'>
             <div class="col-sm-4 col-sm-offset-4">
-                 <p><strong>The Rivertown Trio</strong> is available for:</p> 
-                 <ul>
+                 <p class='text-center'><strong>The Rivertown Trio</strong> is available for booking:</p> 
+                 <ul class='venue-types'>
                     <li>Bars</li>
                     <li>Clubs</li>
                     <li>Festivals</li>
