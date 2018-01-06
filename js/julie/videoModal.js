@@ -36,12 +36,12 @@ window.onYouTubeIframeAPIReady = function() {
 			'onStateChange' : onPlayerStateChange
 		}
 	});
-	console.log('iFrame API ready');
+	// console.log('iFrame API ready');
 };
 
 function onPlayerReady(event) {
    event.target.setPlaybackQuality('hd720');
-   console.log('yt players ready');
+   // console.log('yt players ready');
 }
 function onPlayerStateChange(event) {
    if (event.data == YT.PlayerState.BUFFERING) {

@@ -10,11 +10,11 @@
 
 			<div class="col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 text-justify">
 				<img class='img-rounded bio-image hidden-xs' src='images/julie_bio_v04.jpg' alt='Julie'>
-				<p>Music has been in my soul since I was a little girl. I needed to listen to music to get to sleep at night. And I did it for so many years that it just got into my cells and became part of who I am. I grew up in San Francisco in the 60s and 70s - in my world, it was totally about music! Shows at the Fillmore, Winterland, free music in the park, singing and writing songs…the excitement was intoxicating!</p>
+				<p>Music has always been in my soul. I grew up in the music scene during the remarkable musical explosion of the 60s and 70s in San Francisco. My first show was seeing Big Brother &amp; the Holding Company open for Jimi Hendrix at Winterland! It was thrilling, and inspired me to sing and write, and music became my obsession thereafter.</p>
 
-				<p>In 2009, I had an epiphany… I knew I HAD to share the music inside me and set this rock and roll girl free! Playing music allows me to share with others what is in my heart and has changed my life in ways I never imagined.</p>
+				<p>In 2007, I had an epiphany… I knew I had to share the music inside me and truly set this rock and roll girl free! Playing music allows me to share with others what is in my heart, and has changed my life in ways I never imagined.</p>
 
-				<p>Since then, I have had the great fortune to play with some phenomenal musicians who have played with New Riders of the Purple Sage, Etta James, Art Blakey, and Supertramp, to name a few, along with other talented players in the San Francisco Bay Area. I have been a band leader, a back-up singer, sung on the fly, or rehearsed!</p>
+				<p>Since then, I have had the great fortune to play with some phenomenal musicians who have played with New Riders of the Purple Sage, Etta James, Art Blakey, and Supertramp (to name a few), along with other talented players in the San Francisco Bay Area. I began performing with various bands 10 years ago, until I became band leader of the Rivertown Trio with whom I have been performing for last 4 years, singing lead, backup, playing guitar and percussion. We play all over the Bay Area.</p>
 
 				<p><em>Collaborating with other musicians is enlivening and exciting, not to mention exceedingly fun!</em></p>
 
